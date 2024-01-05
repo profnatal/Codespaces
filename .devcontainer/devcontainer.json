@@ -24,15 +24,17 @@
         "GitHub.copilot",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps"
+        "oderwat.indent-rainbow" 
       ],
       "settings": {
-        "emmet.includeLanguages": {
+        "emmet.includeLanguages": ,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",{
           "javascript": "javascriptreact"
         },
         "emmet.triggerExpansionOnTab": true
       }
     }
-  },
+  }
 
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
