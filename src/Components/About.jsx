@@ -24,7 +24,8 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Sou Bacharel e Licenciado em Ciências Biológicas, Pós-graduado MBA em Perícia, Gestão e Auditoria Ambiental. Estive por 8 anos servindo o Exército Brasileiro e tive a oportunidade em participar de uma Missão de Paz das Nações Unidas no Haiti. Durante esse concluí a graduação, mesmo trancando por um ano para participar da missão no exterior. Tive a oportunidade de estar em sala de aula lecionando Física, Matemática em turmas do ensino fundamental, ensino médio e EJA. Trabalhei por onze meses (entre 2018 e 2019) na empresa Biopar (Biodiesel Parecis) como analista de laboratório, e apenas a deixando para assumir um novo desafio no serviço público. Hoje estou como Dirigente Municipal de Educação, Cultura, Esporte e Turismo, e busco constantemente inovar e tentar trazer cada vez mais melhorias para todo o município.
+  "Sou totalmente adepto a inovação no ambiente de trabalho, tanto que busquei uma certificação Google For Education, e estou cursando nova graduação em Ciências de Dados.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +33,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data Science",
+  "Trabalho em Equipe",
+  "Ferramentas Digitais",
+  "Educação Inclusiva",
+  "Ciências",
 ];
 
 /**
@@ -45,8 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+"Sou apaixonado por resolver problemas de novas maneiras criativas para impulsionar a inovação. Ao aproveitar minha experiência, procuro continuamente maneiras novas e melhores de tornar a tecnologia acessível a todos."
 const About = () => {
   return (
     <section className="padding" id="about">
